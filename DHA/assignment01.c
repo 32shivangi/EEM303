@@ -47,7 +47,7 @@ void ispresent(int ele,struct node *r)
     if(r->data==ele)
     {
         flag=1;
-        printf("TRUE ");
+        printf("Element Found");
         exit(1);
     }
 
@@ -73,7 +73,7 @@ void main()
     ispresent(x,root);
     if(flag==0)
     {
-        printf("FALSE ");
+        printf("Element Not Found");
     }
 }
 
